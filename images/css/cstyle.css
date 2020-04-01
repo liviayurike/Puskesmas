@@ -1,0 +1,74 @@
+.hr1{
+    border-top: 1px solid #C6C6C6;
+    }
+    table.tabel1, table.tabel1 td{
+    width: 100%;
+    }
+    table.tabel2{
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    table.tabel2, table.tabel2 th, table.tabel2 td{
+    padding: 13px;
+    text-align: left;
+    border: 1px solid black;
+    border-color: #C6C6C6;
+    }
+    table.tabel2 th{
+    background-color: #E4E4E4;
+    padding-top: 8px;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    }
+    table.tabel2 td{
+    padding: 8px;
+    }
+    input.button1{
+    background-color: #008CBA;
+    border-radius: 4px;
+    padding: 10px 24px;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-weight: bold;
+    }
+    input.button2{
+    background-color: #f44336;
+    border-radius: 4px;
+    padding: 10px 24px;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-weight: bold;
+    }
+    input.buttonu{
+    background-color: #4CAF50;
+    border-radius: 4px;
+    padding: 10px 24px;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-weight: bold;
+    }
+    .buttonu:hover{
+    background-color: #5fb962;
+    }
+    .button1:hover{
+    background-color: #4095c6;
+    }
+    .button2:hover{
+    background-color: #ff4d4d;
+    }
+    @media all and (max-width:30em){
+    .button1{
+    display:block;
+    margin:0.2em auto;
+    }
+    .button2{
+    display:block;
+    margin:0.2em auto;
+    }

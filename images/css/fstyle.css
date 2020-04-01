@@ -1,0 +1,45 @@
+    input.tbh{
+    background-color: #008CBA;
+    border-radius: 4px;
+    padding: 10px 24px;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-weight: bold;
+    }
+    th,td, tr{
+    font-size: 15px;
+    font-family: 'Robot',sans-serif;
+    }
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    }
+    .tablef{
+    width: auto;
+    margin: auto;
+    }
+    .jud{
+    text-align: center;
+    font-family: 'Robot',sans-serif;
+    font-weight: lighter;
+    }
+    .frm{
+    margin: auto;
+    background-color: #C6C6C6;
+    width: auto;
+    max-width: 50%;
+    padding: 30px 40px;
+    border-radius: 8px;
+    }
+    .tbh:hover{
+    background-color: #4095c6;
+    }
+    @media all and (max-width:30em){
+    .tbh{
+    display:block;
+    margin:0.2em auto;
+    }
